@@ -1,0 +1,15 @@
+aclocal.m4
+autoscan.log
+build
+compile
+config.h.in
+depcomp
+INSTALL
+install-sh
+Makefile.in
+missing
+src/*.o
+src/*.in
+src/Makefile
+include/Makefile
+include/*.in
