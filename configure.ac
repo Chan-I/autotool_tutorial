@@ -23,5 +23,6 @@ AC_PROG_MKDIR_P
 
 AC_CONFIG_FILES([Makefile
                  include/Makefile
+				 man/Makefile
                  src/Makefile])
 AC_OUTPUT

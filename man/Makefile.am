@@ -1,4 +1,2 @@
 AUTOMAKE_OPTIONS = foreign subdir-objects
-SUBDIRS = include \
-			src \
-			man 
+man_MANS = example.8
