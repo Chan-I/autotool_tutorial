@@ -1,4 +1,4 @@
-test.o: test.c /usr/include/stdc-predef.h ../include/times.h \
+main/test.o: main/test.c /usr/include/stdc-predef.h ../include/times.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

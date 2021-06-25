@@ -5,7 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([math], [1.0], [xxx.com])
 AM_INIT_AUTOMAKE
 
-AC_CONFIG_SRCDIR([src], [src/plus], [src/times], [src/minus])
+AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
 # Checks for programs.
 AC_PROG_CC
@@ -23,8 +23,5 @@ AC_PROG_MKDIR_P
 
 AC_CONFIG_FILES([Makefile
                  include/Makefile
-                 src/Makefile
-                 src/minus/Makefile
-                 src/plus/Makefile
-                 src/times/Makefile])
+                 src/Makefile])
 AC_OUTPUT
