@@ -37,3 +37,4 @@ rm -rf src/times/.deps
 rm -rf src/times/.d*
 rm -rf src/times/Makefile
 rm -rf src/times/Makefile.in
+sudo rm -rf cddb.c cddb.h libcddb.so /usr/local/include/cddb.h /usr/local/lib/libcddb.so

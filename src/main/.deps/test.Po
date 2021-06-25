@@ -19,7 +19,7 @@ main/test.o: main/test.c /usr/include/stdc-predef.h ../include/times.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h ../include/plus.h \
- ../include/minus.h
+ ../include/minus.h ../cddb.h
 
 /usr/include/stdc-predef.h:
 
@@ -70,3 +70,5 @@ main/test.o: main/test.c /usr/include/stdc-predef.h ../include/times.h \
 ../include/plus.h:
 
 ../include/minus.h:
+
+../cddb.h:
