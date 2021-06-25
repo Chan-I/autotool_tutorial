@@ -1,3 +1,6 @@
 AUTOMAKE_OPTIONS = foreign subdir-objects
 SUBDIRS = include \
-			src
+			src/plus \
+			src/minus \
+			src/times \
+			src 

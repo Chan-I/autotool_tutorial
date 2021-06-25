@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
-AC_CONFIG_SRCDIR([config.h.in])
+AC_CONFIG_SRCDIR([src/test.c])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
@@ -19,5 +19,8 @@ AC_PROG_CC
 
 AC_CONFIG_FILES([Makefile
                  include/Makefile
-                 src/Makefile])
+                 src/Makefile
+                 src/minus/Makefile
+                 src/plus/Makefile
+                 src/times/Makefile])
 AC_OUTPUT
