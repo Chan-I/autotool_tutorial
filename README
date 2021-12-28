@@ -3,7 +3,7 @@
 [autotool工程的编译手册](https://www.cnblogs.com/AshenYi/p/14882469.html)
 
 
-1. ./libtool.sh
+1. ./libcddb.sh
 2. ./autogen.sh
 3. ./configure --prefix=...
 4. make;make install
